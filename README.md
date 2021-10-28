@@ -1,3 +1,12 @@
+# @monzo/flow-to-ts
+
+[![npm version](https://badge.fury.io/js/%40khanacademy%2Fflow-to-ts.svg)](https://badge.fury.io/js/%40monzo%2Fflow-to-ts)
+
+> :warning: Please note that is is an unsupported fork of `@khanacademy/flow-to-ts`.
+
+Feel free to fork it yourself and base your work of it :-) 
+
+
 # flow-to-ts
 
 [![Actions Status](https://github.com/Khan/flow-to-ts/workflows/Node%20CI/badge.svg)](https://github.com/Khan/flow-to-ts/actions)
