@@ -1,12 +1,12 @@
 {
-  "name": "@khanacademy/flow-to-ts",
-  "version": "0.5.2",
+  "name": "@monzo/flow-to-ts",
+  "version": "0.5.3",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/khan/flow-to-ts"
+    "url": "https://github.com/monzo/flow-to-ts"
   },
   "main": "dist/convert.js",
   "bin": {
