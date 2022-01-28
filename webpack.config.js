@@ -1,12 +1,12 @@
 const path = require("path");
 
-const {flowConfig, tsConfig} = require("./babel.configs.js");
+const { flowConfig, tsConfig } = require("./babel.configs.js");
 
 module.exports = {
   target: "node",
   mode: "development",
   entry: {
-    convert: "./src/convert.ts",
+    index: "./src/index.ts",
     cli: "./src/cli.ts",
   },
   output: {

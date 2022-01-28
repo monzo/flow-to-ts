@@ -1,6 +1,6 @@
 {
   "name": "@monzo/flow-to-ts",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "publishConfig": {
     "access": "public"
   },
@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/monzo/flow-to-ts"
   },
-  "main": "dist/convert.js",
+  "main": "dist/index.bundle.js",
   "bin": {
     "flow-to-ts": "./bin/flow-to-ts.js"
   },
