@@ -81,7 +81,7 @@ export const convert = (flowCode: string, options?: any) => {
 
   // we pass flowCode so that generate can compute source maps
   // if we ever decide to
-  let tsCode = generate(ast, undefined, flowCode).code;
+  let tsCode = generate(ast, { retainLines: true }, flowCode).code;
 
   if (options && options.prettier) {
     const prettierOptions = {

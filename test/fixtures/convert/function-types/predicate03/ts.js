@@ -1,1 +1,1 @@
-const isString = y => typeof y === "isString";
+const isString = (y) => typeof y === "isString";

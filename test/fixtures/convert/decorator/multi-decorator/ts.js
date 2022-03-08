@@ -11,5 +11,4 @@ export class Store {
   multipleDecorator2() {
     return 0;
   }
-
 }
