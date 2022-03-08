@@ -12,5 +12,4 @@ export class Store {
   newMarkerStore(editorId: number) {
     return 1;
   }
-
 }

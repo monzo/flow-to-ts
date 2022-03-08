@@ -43,7 +43,7 @@ describe.only("convert", () => {
           });
         } else {
           test(testName.replace(/_/g, " "), () => {
-            expect(convert(flowCode)).toEqual(tsCode);
+            expect(convert(flowCode, { prettier: true })).toEqual(tsCode);
           });
         }
       }

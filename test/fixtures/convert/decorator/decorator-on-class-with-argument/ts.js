@@ -5,8 +5,7 @@ class PasswordEditor extends React.PureComponent<Props, State> {
   constructor(props: Props) {
     super(props);
     this.state = {
-      showPassword: false
+      showPassword: false,
     };
   }
-
 }

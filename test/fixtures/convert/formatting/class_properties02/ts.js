@@ -11,5 +11,4 @@ class Foo {
   #baz() {
     console.log("baz");
   }
-
 }
